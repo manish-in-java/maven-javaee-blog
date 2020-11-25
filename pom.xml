@@ -149,17 +149,15 @@
               <goalPrefix>embedded-glassfish</goalPrefix>
               <port>8080</port>
             </configuration>
-            <!--
-                    <executions>
-                      <execution>
-                        <goals>
-                          <goal>run</goal>
-                          <goal>deploy</goal>
-                        </goals>
-                        <phase>package</phase>
-                      </execution>
-                    </executions>
-            -->
+            <executions>
+              <execution>
+                <goals>
+                  <goal>run</goal>
+                  <goal>deploy</goal>
+                </goals>
+                <phase>package</phase>
+              </execution>
+            </executions>
           </plugin>
         </plugins>
       </build>
